@@ -4,6 +4,8 @@ window.onload = function() {
         // 替换为你的图片路径
         document.getElementById('giftImage').src = "1743060797461.png";
         document.getElementById('giftImage').classList.add('show');
+        bgMusic.play();
+        musicBtn.textContent = "🎵 关闭音乐";
     }
 
     // 生成泡泡
